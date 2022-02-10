@@ -1,0 +1,1 @@
+# Approvaltests.Kotlin.StarterProject
