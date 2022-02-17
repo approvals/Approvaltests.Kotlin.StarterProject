@@ -21,7 +21,7 @@ class SampleTests {
     @Test
     fun testCombinations() {
         val numbers = arrayOf(10, 20, 30, 40, 50)
-        CombinationApprovals.verifyAllCombinations({ a: Int?, b: Int? -> "$a + $b" }, numbers, numbers)
+        CombinationApprovals.verifyAllCombinations({ a, b -> "$a + $b" }, numbers, numbers)
     }
 
     /**
