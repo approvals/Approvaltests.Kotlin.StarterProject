@@ -1,1 +1,19 @@
 
+name: build_and_test
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.4.0
+      - name: Setup Kotlin
+        uses: fwilhe2/setup-kotlin@0.2.0
+      - name: run_test
+        run: ./run_test.sh
