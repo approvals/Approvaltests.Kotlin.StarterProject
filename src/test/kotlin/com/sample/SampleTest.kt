@@ -1,6 +1,7 @@
 package com.sample
 
 import org.approvaltests.Approvals
+import org.approvaltests.JsonApprovals
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
@@ -22,6 +23,6 @@ class SampleTests {
     @Test
     fun testJson() {
         val hero = Person("jayne", "cobb", true, 38)
-        Approvals.verifyAsJson(hero)
+        JsonApprovals.verifyAsJson(hero)
     }
 }
