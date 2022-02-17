@@ -5,7 +5,6 @@ import org.approvaltests.JsonApprovals
 import org.approvaltests.combinations.CombinationApprovals
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
-import org.lambda.functions.Function2
 
 class SampleTests {
     @Test
