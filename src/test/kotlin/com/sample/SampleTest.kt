@@ -19,15 +19,9 @@ class SampleTests {
     }
 
     @Test
-    internal fun testCombinations() {
+    fun testCombinations() {
         val numbers = arrayOf(10, 20, 30, 40, 50)
-        CombinationApprovals.verifyAllCombinations(Combine(), numbers, numbers)
-    }
-
-    class Combine : Function2<Int, Int, String> {
-        override fun call(a: Int?, b: Int?): String {
-            return "$a + $b"
-        }
+        CombinationApprovals.verifyAllCombinations({ a: Int?, b: Int? -> "$a + $b" }, numbers, numbers)
     }
 
     /**
