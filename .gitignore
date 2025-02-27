@@ -7,3 +7,4 @@ bin/
 /build
 /captures
 .externalNativeBuild
+.approval_tests_temp/
