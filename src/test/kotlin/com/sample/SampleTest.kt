@@ -36,7 +36,7 @@ class SampleTests {
         JsonApprovals.verifyAsJson(hero)
     }
 
-    // begin_snippet: kotlin_dynamic_test
+    // begin-snippet: kotlin_dynamic_test
     @TestFactory
     fun `test factory`(): List<DynamicTest> {
         return listOf(1, 2).map { it ->
@@ -45,6 +45,6 @@ class SampleTests {
             }
         }
     }
-    // end_snippet
+    // end-snippet
 
 }
