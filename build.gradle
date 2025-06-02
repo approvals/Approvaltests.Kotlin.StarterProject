@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
-    implementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    implementation 'org.junit.jupiter:junit-jupiter:5.13.0'
     testImplementation("com.approvaltests:approvaltests:24.22.0")
     testImplementation("com.google.code.gson:gson:2.13.1")
 }
