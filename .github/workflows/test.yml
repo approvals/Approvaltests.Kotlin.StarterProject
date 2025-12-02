@@ -10,9 +10,9 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Setup Kotlin
-        uses: fwilhe2/setup-kotlin@v1.2
+        uses: fwilhe2/setup-kotlin@v1.4
       - name: run_tests
         run: ./run_tests.sh
   auto-merge:
@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: auto-merge
         if: |
           github.actor == 'dependabot[bot]' &&
