@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Setup Kotlin
-        uses: fwilhe2/setup-kotlin@v1.6
+        uses: fwilhe2/setup-kotlin@v1.7
       - name: run_tests
         run: ./run_tests.sh
   auto-merge:
