@@ -17,7 +17,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     implementation 'org.junit.jupiter:junit-jupiter:6.1.3'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher:6.1.3'
-    testImplementation("com.approvaltests:approvaltests:31.2.0")
+    testImplementation("com.approvaltests:approvaltests:32.2.0")
     testImplementation("com.google.code.gson:gson:2.15.0")
 }
 
